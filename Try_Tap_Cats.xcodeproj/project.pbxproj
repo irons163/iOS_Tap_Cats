@@ -16,6 +16,7 @@
 		B521150C1B3E2BF2005EFD4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B521150B1B3E2BF2005EFD4A /* Images.xcassets */; };
 		B521150F1B3E2BF2005EFD4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B521150D1B3E2BF2005EFD4A /* LaunchScreen.xib */; };
 		B521151B1B3E2BF2005EFD4A /* Try_Tap_CatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B521151A1B3E2BF2005EFD4A /* Try_Tap_CatsTests.m */; };
+		B52115261B3E2CB8005EFD4A /* Cats.m in Sources */ = {isa = PBXBuildFile; fileRef = B52115251B3E2CB8005EFD4A /* Cats.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		B52115141B3E2BF2005EFD4A /* Try_Tap_CatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_Tap_CatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52115191B3E2BF2005EFD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B521151A1B3E2BF2005EFD4A /* Try_Tap_CatsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_Tap_CatsTests.m; sourceTree = "<group>"; };
+		B52115241B3E2CB8005EFD4A /* Cats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cats.h; sourceTree = "<group>"; };
+		B52115251B3E2CB8005EFD4A /* Cats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cats.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				B52115031B3E2BF2005EFD4A /* GameScene.sks */,
 				B52115051B3E2BF2005EFD4A /* GameViewController.h */,
 				B52115061B3E2BF2005EFD4A /* GameViewController.m */,
+				B52115241B3E2CB8005EFD4A /* Cats.h */,
+				B52115251B3E2CB8005EFD4A /* Cats.m */,
 				B52115081B3E2BF2005EFD4A /* Main.storyboard */,
 				B521150B1B3E2BF2005EFD4A /* Images.xcassets */,
 				B521150D1B3E2BF2005EFD4A /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52115261B3E2CB8005EFD4A /* Cats.m in Sources */,
 				B52115071B3E2BF2005EFD4A /* GameViewController.m in Sources */,
 				B52114FF1B3E2BF2005EFD4A /* AppDelegate.m in Sources */,
 				B52115021B3E2BF2005EFD4A /* GameScene.m in Sources */,

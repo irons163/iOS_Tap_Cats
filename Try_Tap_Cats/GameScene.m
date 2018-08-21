@@ -8,7 +8,18 @@
 
 #import "GameScene.h"
 
-@implementation GameScene
+@implementation GameScene{
+    SKSpriteNode* catsCatalogBtn;
+    SKSpriteNode* store;
+}
+
+-(void)initButton{
+    
+}
+
+-(void)initCats{
+    
+}
 
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
